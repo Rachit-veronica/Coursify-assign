@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.0eb7919f.css",
-    "main.js": "/static/js/main.5a2c684c.js",
-    "static/js/787.b569d096.chunk.js": "/static/js/787.b569d096.chunk.js",
-    "static/media/landingPageImg.png": "/static/media/landingPageImg.492d2409fac1ddbf8deb.png",
-    "static/media/logo.png": "/static/media/logo.e009650c2fe429f50807.png",
-    "index.html": "/index.html",
-    "main.0eb7919f.css.map": "/static/css/main.0eb7919f.css.map",
-    "main.5a2c684c.js.map": "/static/js/main.5a2c684c.js.map",
-    "787.b569d096.chunk.js.map": "/static/js/787.b569d096.chunk.js.map"
+    "main.css": "/Coursify-assign/static/css/main.0eb7919f.css",
+    "main.js": "/Coursify-assign/static/js/main.c7f43a42.js",
+    "static/js/787.b569d096.chunk.js": "/Coursify-assign/static/js/787.b569d096.chunk.js",
+    "static/media/landingPageImg.png": "/Coursify-assign/static/media/landingPageImg.492d2409fac1ddbf8deb.png",
+    "static/media/logo.png": "/Coursify-assign/static/media/logo.e009650c2fe429f50807.png",
+    "index.html": "/Coursify-assign/index.html",
+    "main.0eb7919f.css.map": "/Coursify-assign/static/css/main.0eb7919f.css.map",
+    "main.c7f43a42.js.map": "/Coursify-assign/static/js/main.c7f43a42.js.map",
+    "787.b569d096.chunk.js.map": "/Coursify-assign/static/js/787.b569d096.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0eb7919f.css",
-    "static/js/main.5a2c684c.js"
+    "static/js/main.c7f43a42.js"
   ]
 }

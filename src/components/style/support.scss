@@ -1,0 +1,91 @@
+.contactOutterBody {
+  max-width: 100%;
+  .contactInnerBody {
+    padding: 5% 10%;
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+
+    align-items: center;
+
+    @media (max-width: 860px) {
+      display: grid;
+    }
+    .contactImgBody {
+      max-width: 60%;
+
+      @media (max-width: 860px) {
+        max-width: 100%;
+      }
+      img {
+        width: 100%;
+      }
+    }
+    .contactFormBody {
+      width: 30%;
+      @media (max-width: 860px) {
+        margin-top: 2%;
+        width: 100%;
+      }
+      form {
+        width: 100%;
+        height: auto;
+        .contactName {
+          padding: 10% 0% 0% 0%;
+          @media (max-width: 860px) {
+            padding: 2% 0% 0% 0%;
+          }
+          label {
+            font-size: 22px;
+          }
+          input {
+            margin-top: 2%;
+            width: 100%;
+            height: 35px;
+          }
+        }
+        .contactEmail {
+          padding: 10% 0% 0% 0%;
+          @media (max-width: 860px) {
+            padding: 5% 0% 0% 0%;
+          }
+          label {
+            font-size: 22px;
+          }
+          input {
+            margin-top: 2%;
+            width: 100%;
+            height: 35px;
+          }
+        }
+        .contactMessage {
+          padding: 10% 0% 0% 0%;
+          @media (max-width: 860px) {
+            padding: 5% 0% 0% 0%;
+          }
+          label {
+            font-size: 22px;
+          }
+          textarea {
+            margin-top: 2%;
+            width: 100%;
+            height: 35px;
+          }
+        }
+        button {
+          margin-top: 5%;
+          width: 40%;
+          height: 35px;
+          cursor: pointer;
+          border-radius: 22px;
+          font-size: 16px;
+          font-weight: 600;
+          //   box-shadow: 0 4px 20px rgb(0 0 0 / 0.2);
+          &:hover {
+            color: #4371d8;
+          }
+        }
+      }
+    }
+  }
+}

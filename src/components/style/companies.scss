@@ -1,0 +1,101 @@
+.companiesOutterBody {
+  //   background-image: linear-gradient(
+  //     to left top,
+  //     #4a4648,
+  //     #685f6e,
+  //     #777d9b,
+  //     #71a1c8,
+  //     #5bc8e7,
+  //     #53d3ef,
+  //     #4adef7,
+  //     #41e9fd,
+  //     #45daff,
+  //     #59cafd,
+  //     #71b9f5,
+  //     #86a8e7
+  //   );
+  .companiesInnerBody {
+    padding: 0% 10%;
+    .companiesTitle {
+      text-align: center;
+      align-items: center;
+      h1 {
+        margin-top: 5%;
+        font-size: 25px;
+      }
+    }
+    .companiesImg {
+      display: flex;
+      justify-content: space-between;
+      justify-content: space-around;
+      overflow: hidden;
+      width: 100%;
+      max-width: 100%;
+      .companiesImgInnerBody {
+        display: flex; /* Make slides appear in a row */
+        animation: scrollSlider 10s linear infinite; /* Adjust the animation duration as needed */
+        margin-top: 2%;
+        margin-bottom: 2%;
+      }
+      img {
+        max-width: 15%;
+        flex: 0 0 90%; /* Set the width of each slide to 100% of the container */
+        padding: 20px; /* Adjust as needed */
+      }
+    }
+    .companiesAchievement {
+      display: flex;
+      justify-content: space-between;
+      text-align: center;
+      justify-content: space-around;
+      height: 200px;
+      @media (max-width: 860px) {
+        display: none;
+      }
+      .companiesNumber {
+        display: flex;
+        align-items: center;
+        h2 {
+        }
+      }
+      .companiesMatches {
+        display: flex;
+        align-items: center;
+      }
+      .companiesCandidates {
+        display: flex;
+        align-items: center;
+      }
+    }
+  }
+}
+#verticalLine {
+  //   transform: rotate(90deg);
+  max-width: 5%;
+}
+
+#countingData {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  animation: countUp 2s ease-in-out;
+}
+
+@keyframes scrollSlider {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(
+      -100%
+    ); /* Adjust -100% to control the distance of sliding */
+  }
+}
+@keyframes countUp {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

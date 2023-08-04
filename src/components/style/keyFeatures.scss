@@ -1,0 +1,171 @@
+.keyFeaturesTitleBody {
+  padding: 5% 10%;
+  text-align: center;
+
+  .emailsOutterBody {
+    background-color: #13293d;
+    color: white;
+    border-radius: 22px;
+    margin-top: 2%;
+    .emailsInnerBody {
+      padding: 5% 0%;
+      display: flex;
+      justify-content: space-around;
+      justify-content: space-between;
+      align-items: center;
+
+      @media (max-width: 860px) {
+        display: grid;
+        justify-content: center;
+      }
+
+      .emailsTextBody {
+        text-align: start;
+        max-width: 45%;
+        display: flex;
+        justify-content: end;
+        @media (max-width: 860px) {
+          max-width: 100%;
+          grid-row-start: 2;
+          grid-row-end: 3;
+          justify-content: center;
+        }
+        .emailsTextInnerBody {
+          max-width: 90%;
+          h3 {
+            font-size: 30px;
+          }
+          p {
+            margin-top: 2%;
+            font-size: 25px;
+          }
+        }
+        button {
+          margin-top: 5%;
+          width: 30%;
+          height: 35px;
+          cursor: pointer;
+          border-radius: 5px;
+          font-size: 15px;
+        }
+      }
+      .emailsImgBody {
+        img {
+          max-width: 100%;
+        }
+      }
+    }
+  }
+  .submissionsOutterBody {
+    background-color: #fde9de;
+    color: black;
+    border-radius: 22px;
+    margin-top: 2%;
+    .submissionsInnerBody {
+      padding: 5% 0%;
+      display: flex;
+      justify-content: space-around;
+      justify-content: space-between;
+      align-items: center;
+
+      @media (max-width: 860px) {
+        display: grid;
+        justify-content: center;
+      }
+      .submissionsTextBody {
+        text-align: start;
+        max-width: 45%;
+        display: flex;
+        justify-content: start;
+
+        @media (max-width: 860px) {
+          max-width: 100%;
+          justify-content: center;
+        }
+        .submissionsTextInnerBody {
+          max-width: 90%;
+          h3 {
+            font-size: 30px;
+          }
+          p {
+            margin-top: 2%;
+            font-size: 25px;
+          }
+        }
+        button {
+          margin-top: 5%;
+          width: 30%;
+          height: 35px;
+          cursor: pointer;
+          border-radius: 5px;
+          font-size: 15px;
+        }
+      }
+      .submissionsImgBody {
+        img {
+          max-width: 90%;
+          display: block;
+          @media (max-width: 770px) {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+  .noLoginRequiredAndFeedbackOutterBody {
+    max-width: 100%;
+    .noLoginRequiredAndFeedbackInnerBody {
+      padding: 2% 0%;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2%;
+      @media (max-width: 860px) {
+        grid-template-columns: 1fr;
+      }
+      .noLoginRequiredBody {
+        background-color: #f1f9f4;
+        border-radius: 10px;
+        justify-content: center;
+        .noLoginRequiredTextBody {
+          text-align: start;
+          padding: 5% 10%;
+          h3 {
+            font-size: 30px;
+          }
+          p {
+            padding: 3% 0%;
+            font-size: 25px;
+          }
+        }
+        .noLoginRequiredImgBody {
+          img {
+            max-width: 80%;
+          }
+        }
+      }
+
+      .feedbackBody {
+        background-color: #e8f1f2;
+        border-radius: 10px;
+        border-radius: 10px;
+        justify-content: center;
+        .feedbackTextBody {
+          text-align: start;
+          padding: 5% 10%;
+          h3 {
+            font-size: 30px;
+          }
+          p {
+            padding: 3% 0%;
+            font-size: 25px;
+          }
+        }
+        .feedbackImgBody {
+          img {
+            max-width: 80%;
+          }
+        }
+      }
+    }
+  }
+}
